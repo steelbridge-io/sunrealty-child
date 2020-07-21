@@ -1,0 +1,370 @@
+/*
+
+    Custom styles for wpresidence & Sun Realty of Florida
+    Author: Chris Parsons
+
+    - Agent Portal Forms
+    - Gmap
+    - Open Houses
+    - Contact Us
+    - Nav
+    - Front Page
+    - Forms
+    - Footer
+    - Agent Property Slider
+    - Property Search
+    - Media Queries
+
+*/
+.mt-1618 {
+  margin-top: 1.618em;
+}
+.mb-1618 {
+  margin-bottom: 1.618em;
+}
+.ml-1618 {
+  margin-left: 1.618em;
+}
+.mr-1618 {
+  margin-right: 0.5em;
+}
+
+a.uc_btn.uc_yellow {
+  margin: 1.618em 0;
+}
+
+.uc_border_buttons, .uc_container_holder, .us_btn, .uc_btn:hover {
+  cursor: pointer !important;
+}
+.uc_border_buttons .uc_container_holder .uc_btn {
+  cursor: pointer !important;
+}
+
+.uc_border_buttons .uc_container_holder .uc_btn:hover {
+
+  cursor: pointer !important;
+}
+
+.set_for_sale
+{
+ background-size: 100% 100% !important;
+}
+
+.set_for_sale label
+{
+ color:#fff !Important;
+}
+
+.idx-omnibar-form label {
+    font-size: 17px !important;
+    font-weight: bold;
+	color:#fff !important;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+   opacity: 1 !Important;
+}
+
+.listing_wrapper.col-md-12 .listing-unit-img-wrapper,
+.listing_wrapper.col-md-12  > .property_listing .carousel-inner {
+    max-width: 365px;
+}
+
+#access ul.menu >li>a{
+font-weight:500;
+}
+
+#access.menu >li>a {
+    padding-left: 1em !important;
+}
+
+.property_unit_custom_element.title a{
+font-weight:700;
+}
+
+#access ul li.with-megamenu>ul.sub-menu,
+#access ul li.with-megamenu:hover>ul.sub-menu{
+max-width:1210px;
+}
+
+.custom_desc_2{
+line-height:26px;
+}
+
+.property_unit_custom_agent_face{
+border-radius:0px;
+border:none;
+width:30px;
+height:30px;
+}
+
+.custom_separator{
+    border-top:1px solid #e0e0e0;
+    width:100%;
+margin-top:15px;
+}
+
+.header_type1.header_left #access{
+margin-right:40px;
+}
+
+.home.page .top_bar_wrapper{
+background:transparent;
+border:none;
+}
+
+.home.page.has_top_bar .has_header_type1.header_transparent .header_media {
+    padding-top: 0px;
+}
+
+.home.page.admin-bar.has_top_bar .has_header_type1.header_transparent .header_media {
+    padding-top: 32px;
+}
+
+#access ul ul a,
+#access ul ul{
+border:none!important;
+}
+
+#add_favorites{
+    padding: 5px 10px 3px 10px!important;
+    background-color: #303030!important;
+}
+
+.losagneles_rent_front_row{
+opacity:0.7;
+}
+
+.vc_grid-filter.vc_grid-filter-color-white>.vc_grid-filter-item.vc_active{
+background:transparent;
+color:#fff;
+}
+
+.vc_grid-filter.vc_grid-filter-color-white>.vc_grid-filter-item.vc_active>span{
+color:#fff;
+}
+
+.vc_grid-filter.vc_grid-filter-color-white>.vc_grid-filter-item.vc_active>span:hover{
+color:#ffcc00;
+}
+.vc_grid-filter.vc_grid-filter-color-white>.vc_grid-filter-item:hover{
+background:transparent;
+color:#ffcc00;
+}
+.widget-title-footer{
+color:#fff!important;
+font-weight: 700;
+font-size:15px;
+}
+@media only screen and (max-width: 992px){
+.home.page .top_bar_wrapper {
+background-color:#303030!important;
+}
+}
+
+.wpestate_estate_property_design_agent .agent_contanct_form{
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#carousel-example-generic {
+    max-width: 840px;
+}
+.filter_menu li:hover,
+.form-control.open .filter_menu_trigger, .menu_user_tools {
+    color: #aaaaaa;
+}
+
+.adv-search-3 .filter_menu_trigger {
+    margin-top: 3px;
+}
+
+#access .with-megamenu .widget-title-sidebar {
+    padding-top: 0px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+#agent_contact_name, #agent_user_email, #agent_phone {
+    width: 32.1%;
+}
+
+.adv_handler {
+    background-color: #ffcc00;
+}
+#google_map_prop_list_sidebar .adv-search-1 {
+    background-color: #f7f7f7!important;
+}
+
+.property_listing.property_unit_type2 .share_list {
+    margin-right: 0px;
+}
+
+.property_location {
+    padding: 8px 0px;
+}
+/*** Agent Portal Forms
+------------------------------------------------------------ ***/
+#adv-search-1 #adv-search-header-1 {
+  display: none;
+}
+.ds-bs .col-6 {
+    max-width: 49% !important;
+}
+/*** Gmap
+------------------------------------------------------------ ***/
+.gmap-controls #openmap {
+  display: none;
+}
+/*** Financing Options
+------------------------------------------------------------ ***/
+.wpestate_header_image.full_screen_yes {
+  height: 250px !important;
+}
+#search_wrapper.search_wr_4.with_search_on_end.without_search_form_float {
+ padding: 2.618em 15px !important;
+}
+/*** Open Houses
+------------------------------------------------------------ ***/
+.wpb_text_column .wpb_wrapper h1 span {
+  color: #000 !important;
+}
+/*** Contact Us
+------------------------------------------------------------ ***/
+#contact-us-page.contact-us-page .wpb_wrapper address {
+  font-size: 1.6rem;
+}
+#contact-us-page.contact-us-page .wpb_wrapper a {
+  color: blue;
+}
+/*** Nav
+------------------------------------------------------------ ***/
+
+#access ul.menu >li>a:hover
+{
+    color: #f5f5f5 !important;
+}
+.header_transparent .customnav #access ul.menu >li>a {
+  color: #f5f5f5 !important;
+}
+.header_transparent .customnav #access ul.menu >li.current-menu-item >a {
+  color: #000 !important;
+}
+/*.header_transparent .customnav #access ul.menu >li>a:hover {
+  color: #e0c309 !important;
+}*/
+#access ul.menu .current-menu-item >a {
+  color: #000 !important;
+}
+.mobilex-menu .sub-menu .sub-menu a:hover,
+.mobilex-menu .sub-menu a:hover {
+  color: #000 !important;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children > a:hover {
+  color: #f5f5f5 !important;
+}
+/*#access .menu li:hover > a,
+#access .menu li:hover > a:active {
+  color: #e0c309 !important;
+}*/
+/*** Front Page
+----------------------------------------------------------- ***/
+#homepage-tampa-header {
+	margin-top: -20px;
+}
+.frontpage-intro .vc_column-inner .wpb_wrapper .uvc-heading .uvc-main-heading h2,
+.frontpage-intro .vc_column-inner .wpb_wrapper .uvc-heading .uvc-sub-heading {
+  text-shadow: 1px 1px 2px #000;
+}
+/*** Forms
+----------------------------------------------------------- ***/
+#content_container_cf7 {
+    margin: 0px -15px;
+}
+.wpcf7 label{
+    margin-bottom: 3px; color: #8593a9;
+}
+.agent_contanct_form_sidebar .wpcf7-form-control {
+    border: 0px solid #dde4e9;
+}
+.wpcf7-form-control.wpcf7-acceptance{
+    background-color:transparent;
+}
+.wpcf7-form-control-wrap input[type="checkbox"] {
+    width: 15px; height: 15PX;
+    margin-top: 3px;
+    margin-left:-5px
+}
+.wpcf7-form-control{
+    border: 0px solid #f0f0f0;
+}
+.wpcf7-form-control wpcf7-acceptance{
+    border: 0px solid #f0f0f0;
+}
+
+/*** Footer
+----------------------------------------------------------- ***/
+#management-team-footer-1.content-container h4,
+#management-team-footer-1.content-container .footer-links a,
+#management-team-footer-2.content-container h4,
+#management-team-footer-2.content-container .footer-links a,
+#management-team-footer-3.content-container h4,
+#management-team-footer-3.content-container .footer-links a,
+#management-team-footer-4.content-container h4,
+#management-team-footer-4.content-container .footer-links a {
+    color: #f5f5f5 !important;
+    text-align: left;
+}
+#management-team-footer-1.content-container h4,
+#management-team-footer-2.content-container h4,
+#management-team-footer-3.content-container h4,
+#management-team-footer-4.content-container h4 {
+    font-size: 18px !important;
+}
+.footer-cred-class#footer-cred-id .srf-crdentials,
+.front-page-footer-class#front-page-footer-id .srf-crdentials {
+    text-align: center;
+    font-size: 14px;
+    color: #f5f5f5;
+}
+
+/*** Agent Property Slider
+----------------------------------------------------------- ***/
+#carousel-listing .carousel-inner {
+    margin-bottom: 85px;
+}
+#carousel-listing .carousel-control {
+    top: 39% !important;
+}
+.caption-wrapper .caption_control {
+    display: none;
+}
+#carousel-listing .caption-wrapper {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+/*** Property Search
+----------------------------------------------------------- ***/
+ .searchfilterexpand {
+     display: block !important;
+ }
+ #expandableSearchFilters label {
+     color: #000;
+ }
+#defaultSearchFilters label {
+    color: #000;
+}
+#dsidx-search-lotsize-unit {
+    color: #000 !important;
+}
+
+/*** Media Queries
+----------------------------------------------------------- ***/
+@media( min-width: 768px ) {
+    .ds-bs .col-md-6 {
+        max-width: 49% !important;
+    }
+}

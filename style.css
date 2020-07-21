@@ -1,0 +1,15 @@
+/*
+Theme Name: wpresidence child theme
+Template: wpresidence
+Author: annapx
+Version: 1.60.3
+Updated: 2015-01-25 18:19:31
+*/
+
+
+.user_dashboard_links .user_tab_active {
+    color: #fff !important;
+}
+.row.row_user_dashboard {
+    background-color: #f7f7f7;
+}
